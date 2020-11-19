@@ -7,6 +7,35 @@
   pointer-events: none;
 }
 
+.search{
+  margin: 20px;
+  font-size: 30px;
+}
+.title{
+  font-size: 50px;
+}
+.movieContainer{
+  display: flex;
+  flex-wrap: wrap;
+}
+.movie{
+  font-size: 20px;
+  border: 2px solid black;
+  margin: 5px;
+  width: 40vh;
+  min-height: 40vh;
+  text-align: center;
+  justify-items: center;
+}
+.body{
+  background-color: aqua;
+}
+.button{
+  font-size: 20px;
+}
+.center{
+  text-align: center;
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
